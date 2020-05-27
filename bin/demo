@@ -1,9 +1,9 @@
 #!/usr/bin/env php
 <?php
 
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
-define('ROOT_PATH', __DIR__);
+define('ROOT_PATH', dirname(__DIR__));
 
 use Symfony\Component\Console\Application;
 use App\Commands\HttpServerCommand;
